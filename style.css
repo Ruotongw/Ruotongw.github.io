@@ -1,0 +1,187 @@
+body {
+	background: #EFF5F6;
+	height: 100%;
+	position: relative;
+}
+
+* {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+p, table{
+	font-size:1.4rem;
+	color: #5D7296;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar{ 
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+	background: #D35B75;
+	z-index: 1;
+	width: auto;
+}
+
+.nav-link , .navbar-brand{ 
+	color: #5D7296; 
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.nav-link{ 
+	margin-right: 1em !important;
+}
+
+.nav-link:hover{ 
+	color: #E79C6E; 
+	background: #d66d84; 
+	
+}
+
+.navbar-brand:hover {
+	color: #E79C6E; 
+}
+
+.navbar-collapse{ 
+	justify-content: flex-end;
+}
+
+.navbar-toggler{  
+	background: #E79C6E !important;
+}
+
+#myphoto {
+	width: 60%;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+#header {
+	padding-top: 150px;
+	text-align: center;
+	background: #EFF5F6;
+	padding-bottom: 0;
+}
+
+#footer {
+	height: 220px;
+	margin-bottom:0px;
+	background: #ebebeb;
+}
+
+#footer .nav-link:hover{ 
+	background: #ebebeb; 
+	color: #E79C6E; 
+}
+
+h2 {
+	padding-top: 90px;
+	color: #D35B75;
+	font-family: 'EB Garamond', serif;
+	font-size: 3.5rem;
+	text-align: left;
+
+} 
+
+#hello-sentence {
+	font-family: 'EB Garamond', serif;
+	font-size: 3.5rem;
+	text-align: left;
+	color: #D35B75;
+}
+
+div p{
+	text-align: left;
+}
+
+#brand {
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    border-top: 1px solid #D35B75;
+    box-shadow: inset 0px 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+#experience-table td.w-25 {
+	text-align: right;
+}
+
+#experience-table td.w-75 {
+	text-align: left;
+}
+
+#section {
+	color: #E79C6E;
+}
+
+#exploring
+{
+	text-align: center;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 75%;
+}
+
+.image {
+-webkit-box-shadow: 0 8px 6px -6px #999;
+-moz-box-shadow: 0 8px 6px -6px #999;
+box-shadow: 0 8px 6px -6px #999;
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 2px solid #5D7296;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imgcontainer:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.imgcontainer:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  background-color: #DFC071;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*Cite: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+http://colormind.io/bootstrap/
+https://kchang.me*/
