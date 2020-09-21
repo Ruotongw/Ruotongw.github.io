@@ -1,5 +1,5 @@
 body {
-	background: #EFF5F6;
+	background: #fffffe;
 	height: 100%;
 	position: relative;
 }
@@ -11,8 +11,8 @@ body {
 }
 
 p, table{
-	font-size:1.4rem;
-	color: #5D7296;
+	font-size:1rem;
+	color: #2d334a;
 }
 
 html {
@@ -29,13 +29,13 @@ html {
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
 
-	background: #D35B75;
+	background: #e3f6f5;
 	z-index: 1;
 	width: auto;
 }
 
 .nav-link , .navbar-brand{ 
-	color: #5D7296; 
+	color: #272343; 
 	cursor: pointer;
 	font-weight: 600;
 }
@@ -45,13 +45,13 @@ html {
 }
 
 .nav-link:hover{ 
-	color: #E79C6E; 
-	background: #d66d84; 
+	color: #ffd803; 
+	background: #e3f6f5; 
 	
 }
 
 .navbar-brand:hover {
-	color: #E79C6E; 
+	color: #ffd803; 
 }
 
 .navbar-collapse{ 
@@ -59,7 +59,7 @@ html {
 }
 
 .navbar-toggler{  
-	background: #E79C6E !important;
+	background: #ffd803 !important;
 }
 
 #myphoto {
@@ -69,26 +69,26 @@ html {
 }
 
 #header {
-	padding-top: 150px;
+	padding-top: 100px;
 	text-align: center;
-	background: #EFF5F6;
+	background: #fffffe;
 	padding-bottom: 0;
 }
 
 #footer {
 	height: 220px;
 	margin-bottom:0px;
-	background: #ebebeb;
+	background: #fffffe;
 }
 
 #footer .nav-link:hover{ 
-	background: #ebebeb; 
-	color: #E79C6E; 
+	background: #fffffe; 
+	color: #ffd803; 
 }
 
 h2 {
-	padding-top: 90px;
-	color: #D35B75;
+	padding-top: 40px;
+	color: #272343;
 	font-family: 'EB Garamond', serif;
 	font-size: 3.5rem;
 	text-align: left;
@@ -99,7 +99,7 @@ h2 {
 	font-family: 'EB Garamond', serif;
 	font-size: 3.5rem;
 	text-align: left;
-	color: #D35B75;
+	color: #272343;
 }
 
 div p{
@@ -114,7 +114,8 @@ div p{
 hr {
     height: 12px;
     border: 0;
-    border-top: 1px solid #D35B75;
+    border-top: 1px solid #e3f6f5
+  ;
     box-shadow: inset 0px 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
@@ -127,7 +128,7 @@ hr {
 }
 
 #section {
-	color: #E79C6E;
+	color: #ffd803;
 }
 
 #exploring
@@ -151,7 +152,7 @@ box-shadow: 0 8px 6px -6px #999;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  border: 2px solid #5D7296;
+  border: 2px solid #272343;
 }
 
 .middle {
